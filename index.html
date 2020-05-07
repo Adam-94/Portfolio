@@ -1,0 +1,161 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="google" content="notranslate">
+        <title>Adam Hughes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+
+    <!-- Remember to include jQuery :) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+
+    <style>
+        .blocker {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            z-index: 1;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: rgba(0,0,0,0.25);
+            text-align: center;
+          }
+    </style>
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <link href='https://fonts.googleapis.com/css?family=Raleway:500,400,300,200,100' rel='stylesheet' type='text/css'>
+    <canvas class="container" id="container" role="main"></canvas>
+      <div class="content">
+         <ul class="contact">
+            <div class="title"> 
+                <h1 class="titleText">Adam Hughes</h1>
+              </div>
+            <li class="liLink"><a id="about" href="#ex" rel="modal:open">About</a></li>
+            <li class="liLink"><a id="skills" href="#ex1" rel="modal:open">Skills</a></li>
+            <li class="liLink"><a id="projects" href="#ex2" rel="modal:open">Projects</a></li>
+            
+          </ul>
+
+          <div class="icons">
+            <a href="#" class="button"><i class="fa fa-twitter-square"></i></a>
+            <a href="#" class="button"><i class="fa fa-github-square"></i></a>
+            <a href="#" class="button"><i class="fa fa-linkedin-square"></i></a>
+            <a href="#" class="button"><i class="fa fa-medium"></i></a>
+        </div>
+      </div>
+
+    
+    <div id="ex" class="modal">
+        <div class="modal-heading"><h2>About Me</h2></div>
+        <div id="modal-content">
+            <p>My name is Adam Hughes and I’m currently a student at University of South Wales. studying Computer Science. I’m just about to go into my final year.<br />
+                <br />
+
+                I’ve always had a massive interest in technology as a whole, but a few years ago, I looked into programming. I haven’t looked back since. <br />
+                <br />
+
+                As I’m still a student, my specific interests are still developing and I’ve yet to find a particular avenue that I want to go into. Saying that, <br />
+                <br />
+                one subject that has always been in my mind would be Machine Learning.
+                 I’ve also always had a keen interest in physics and artificial intelligence.</p>
+        
+                 <p>I’ve also always had a keen interest in physics 
+                 I’ve also always had a keen interest in physics 
+                 I’ve also always had a keen interest in physics 
+                 I’ve also always had a keen interest in physics 
+                 I’ve also always had a keen interest in physics 
+                 </p>
+                </div>
+    </div>
+
+    <div id="ex1" class="modal">
+        <div class="modal-heading"><h1>Skills</h1></div>
+        <div id="modal-content">
+            <p>Thanks foeee!</p>
+        </div>  
+    </div>
+
+    <div id="ex2" class="modal">
+        <div class="modal-heading"><h1>Projects</h1></div>
+        <div id="modal-content-project">
+            <div class="mac-css-project">
+                <img class="img-project" src="/images/Screenshot_2.png">
+            </div>
+
+            <div class="mac-css-project">
+                <img class="img-project" src="/images/Screenshot_2.png">
+            </div>
+
+            <div class="mac-css-project">
+                <img class="img-project" src="/images/Screenshot_2.png">
+            </div>
+
+             <div class="mac-css-project">
+                <img class="img-project" src="/images/Screenshot_2.png">
+            </div>
+            
+            <div></div>
+
+        </div>
+    </div>
+
+    <!-- <script>
+
+        $('#about').click(function() {
+            console.log("Modal active")
+            $('.content').css('visibility', 'hidden');
+        });
+
+        $('#skills').click(function() {
+            console.log("Modal active")
+            $('.content').css('visibility', 'hidden');
+        });
+
+        $('#project').click(function() {
+            console.log("Modal active")
+            $('.content').css('visibility', 'hidden');
+        });
+
+        $('a[rel]="modal:close"').click(function() {
+            console.log("Content visible!")
+            $('.content').css('visibility', 'visible');
+        });
+    </script>
+     -->
+    <div class="blur blurTop"><canvas class="canvas" id="blurCanvasTop"></canvas></div>
+    <div class="blur blurBottom"><canvas width="1000" height="1000" class="canvas" id="blurCanvasBottom"></canvas></div>
+
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+     <script src="js/main.js"></script>
+    </body>
+</html>
