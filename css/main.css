@@ -331,7 +331,6 @@ p, h1 {
 }
 
 .live-card {
-  color: #6d4c6b;
   font-weight: 600px;
   border-radius: 6px;
   font-size: 15px;
@@ -363,6 +362,9 @@ p, h1 {
 
 }
 
+button {
+  -webkit-appearance: none;
+}
 button:focus {outline: 0;}
 
 @media only screen and (max-width: 600px) {
@@ -377,3 +379,16 @@ button:focus {outline: 0;}
   }
 
 }
+
+@media only screen and (max-width: 300px) {
+  .articles {
+    display: grid;
+    grid-auto-flow: dense;
+    grid-gap: 1px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 10px);
+    margin: 0 auto;
+    max-width: 200px;
+  }
+}
+
