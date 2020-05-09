@@ -331,14 +331,17 @@ p, h1 {
 }
 
 .live-card {
+  display: inline-block;
   font-weight: 600px;
   border-radius: 6px;
   font-size: 15px;
   cursor: pointer;
   border: 0px;
-  height: 25px;
-  width: 50px;
   text-align: center;
+  background: #fff;
+  color: #4b2b45;
+  width: 60px;
+  height: 25px;
 }
 
 .live-card:hover {
@@ -357,7 +360,7 @@ p, h1 {
   background-color: #4b2b45;
   position: relative;
   right: 0;
-  top: 15px;
+  top: 17px;
   margin-bottom: 10px;
 
 }
