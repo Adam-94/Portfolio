@@ -342,6 +342,7 @@ p, h1 {
   color: #4b2b45;
   width: 60px;
   height: 25px;
+  text-decoration: none;
 }
 
 .live-card:hover {
