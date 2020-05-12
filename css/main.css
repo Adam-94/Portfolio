@@ -214,7 +214,7 @@
   color: #fff;
   border-bottom: 1px solid #fff;
   text-align: center;
-  margin: 10px 10px;
+  margin: 5px 5px;
   text-transform: uppercase;
 }
 
@@ -247,10 +247,11 @@
 
 #modal-content {
  width: 90%;
+ text-align: center;
  margin-top: 55px;
  overflow-y: auto;
  position: absolute;
- top: 10%;
+ top: 12%;
  bottom: 2%;
 }
 
@@ -262,6 +263,10 @@ p, h1 {
   color: #ffffff;
   align-content: center;
   margin: 0 0 2rem 0;
+}
+
+.modal-content {
+  overflow: hidden;
 }
 
 .modal-content-project {
@@ -363,7 +368,6 @@ p, h1 {
   right: 0;
   top: 17px;
   margin-bottom: 10px;
-
 }
 
 button {
@@ -396,3 +400,53 @@ button:focus {outline: 0;}
   }
 }
 
+.skills-articles {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 150px);
+  margin: 0 auto;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.skills-article {
+  align-items: center;
+  background: #6d4c6b;
+  box-shadow:
+    0 3.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 4.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 6.5px 10px rgba(0, 0, 0, 0.06),
+    0 50.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 43.4px rgba(0, 0, 0, 0.086),
+    0 150px 200px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 1em;
+}
+
+.skills-container {
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icons-skills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 5vw);
+  position: relative;
+}
+
+.icon-list {
+  margin: 0 auto;
+}
+
+svg {
+  height: 50px;
+  width: 60px;
+}
