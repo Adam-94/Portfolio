@@ -388,19 +388,6 @@ button:focus {outline: 0;}
   }
 }
 
-.skills-articles {
-  display: grid;
-  grid-auto-flow: dense;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(1, 150px);
-  margin: 0 auto;
-  width: 65%;
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
 .skills-article {
   align-items: center;
   background: #6d4c6b;
